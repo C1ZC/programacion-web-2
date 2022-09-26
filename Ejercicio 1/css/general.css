@@ -1,0 +1,40 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.borde{
+    border-color: blue;
+    border-width: 2px;
+    border-style: dotted;
+}
+img{
+    width: 100%;
+    padding: 1%;
+}
+h2{
+    color: rgba(20, 180, 170, 8.8);
+}
+h3{
+    color: blue;
+}
+i{
+    color: blue;
+}
+p{
+    font-weight: 55.8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.stl1{
+    color: red;
+    font-size: 19px;
+}
+.stl2{
+    color:rgb(230, 200, 10)
+}
+.stl3{
+    color: red;
+    text-decoration: underline red;
+}
+.stl4{
+    color: blueviolet;
+}
