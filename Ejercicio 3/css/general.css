@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    text-align: center;
+    background: white;
+    margin: 0;
+    padding: 100px 0 0 75px;
+    }
+    h1 {
+    color: black;
+    font-style: italic;
+    }
+    h2 {
+    color: #717171;
+    }
+    p {
+    font: normal 100%/1.5 Helvetica, Arial, Sans-serif;
+    color: #313131;
+    }
+    button{
+        text-align: center;
+    }
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+      }
+    
