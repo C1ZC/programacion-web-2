@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Boostrap CCS-->
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/general.css" />
+  <link rel="stylesheet" href="/css/tablets.css"
+    media="only screen and (min-device-width: 320px) and (max-device-width: 720px)" />
+
+  <title>Ejercicio Semana 2</title>
+</head>
+
+<body>
+  <h1> 1. Obtenga una fila con cuatro columnas de anchos iguales para ser mostrada
+    en Tablet y escalando a formatos de mayor tamaño (3puntos).</h1>
+
+  <div class="row">
+    <div class="col-sm 4"> Columna 1 </div>
+    <div class="col-sm 4"> Columna 2 </div>
+    <div class="col-sm 4"> Columna 3 </div>
+    <div class="col-sm 4"> Columna 4 </div>
+  </div>
+  </br>
+  </br>
+  </br>
+  <h1> 2. Realice una tabla responsive que contenga un scroll horizontal (3 puntos).</h1>
+
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <h1>3. Diseñe un cuadro de dialogo que contenga un título y tres botones, usted debe colocarle la palabra de su
+    preferencia (3 puntos).</h1>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">BIENVENIDO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        SIGUENOS EN NUESTRAS REDES SOCIALES
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">FACEBOOK</button>
+        <button type="button" class="btn btn-primary">INSTAGRAM</button>
+        <button type="button" class="btn btn-primary">TIKTOK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+</html>
